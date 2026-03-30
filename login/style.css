@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: grid;
+    grid-template-columns: repeat(3 , 200px);
+    grid-template-rows: repeat(3, 50px);
+    grid-template-areas:    
+    'label input2 input2',
+    'label2 input1 input1',
+    'forg';
+    border: solid green;
+    width: 500px;
+    padding: 50px;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+.input1{
+    margin: 2px;
+    height: 3vh;
+
+}
+.input2{
+    margin: 2px;
+    height: 3vh;
+
+}
+
+input:last-child{
+    margin-top: 5px;
+}
+button{
+    margin: 5px 2px;
+}
+p{
+    margin: 0;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
